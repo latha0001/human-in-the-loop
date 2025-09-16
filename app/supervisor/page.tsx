@@ -27,8 +27,8 @@ export default function SupervisorDashboard() {
     loadRecentEvents()
     const interval = setInterval(() => {
       loadRequests()
-      loadMetrics()
-      updateTimeRemaining()
+      loadMetrics();
+      updateTimeRemaining();
     },
     return () => clearInterval(interval)
   }, [])
