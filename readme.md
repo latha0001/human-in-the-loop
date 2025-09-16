@@ -49,14 +49,17 @@ This is an AI phone agent for a beauty salon that:
 
 ## Getting Started
 1. **Install Dependencies**
+   
    \`\`\`bash
    npm install
    \`\`\`
-2. **Run the Development Server**
+3. **Run the Development Server**
+   
    \`\`\`bash
    npm run dev
    \`\`\`
-3. **Open Your Browser**
+5. **Open Your Browser**
+   
    - Go to `http://localhost:3000`
    - Start with the main dashboard to see system overview
 
@@ -77,3 +80,4 @@ This is an AI phone agent for a beauty salon that:
 - Advanced analytics and reporting
 
 This system demonstrates the core concepts of human-in-the-loop AI learning. The AI gets smarter over time by learning from human experts, reducing the workload on supervisors while improving customer service quality.
+
