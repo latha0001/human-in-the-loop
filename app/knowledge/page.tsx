@@ -41,7 +41,7 @@ export default function KnowledgeBasePage() {
       setFilteredEntries(entries)
       const totalUsage = entries.reduce((sum, entry) => sum + entry.usageCount, 0)
       const allTags = entries.flatMap((entry) => entry.tags)
-      const tagCounts = allTags.reduce( (acc, tag) => { acc[tag] = (acc[tag] || 0) + 1 return acc }, {} as Record<string, number>,)
+      const tagCounts = allTags.reduce( (acc, tag) => { acc[tag] = (acc[tag] || 0) + 1; return acc; }, {} as Record<string, number>)
       const popularTags = Object.entries(tagCounts)
         .sort(([, a], [, b]) => b - a)
         .slice(0, 5)
